@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+}
+
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header{
+
+  height: 100px;
+  background: rgb(44, 38, 38);
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+.logo{
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.logo a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  letter-spacing: 5px;
+
+}
+
+nav{
+
+  float:right;
+  line-height: 100px ;
+}
+
+nav a{
+
+ text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: 0 10px ;
+  color:#fff;
+
+}
+
+
+.banner-area{
+
+  width: 100%;
+  height: 500px;
+  top: 100px;
+  background-image: url(/images/hero_image.jpg);
+  -webkit-background-composite: border-box;
+  background-size: cover;
+  background-position:center center;
+  
+}
+
+.banner-area h2{
+
+  padding-top:20%;
+  font-size: 70px;
+  font-family:fantasy ;
+  color: #fff;
+}
+
+.content-area{
+  width: 100%;
+  position: relative;
+  top:70 px;
+  background: #ddd;
+  height: 1500px;
+
+}
+
+.content-area h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0;
+}
+
+.content-area p{
+  padding: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 30px;
+}
+
+
+
+table{
+    position: absolute;
+    left: 50%;
+    top: ;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bcdfbc;
+    box-shadow: 2px 2px 12px rgba(red, green, blue, alpha),-1px 8px rgba(0,0,0,0);
+
+
+
+  }
+
+  tr{
+
+    transition: all .2s ease-in;
+    cursor: pointer
+    ;
+
+  }
+
+  td,th{
+    padding: 12px;
+    text-align:left;
+    border-bottom: 1px solid black;
+    margin: 5px;
+       
+  }
+
+
+  #header{
+    background-color:blanchedalmond;
+  }
+
+  footer {
+    background-color:darkslategray; 
+    height: 50px;
+  }
+
+  .logo-footer{
+    width: 30%;
+    float: left;
+    line-height: 50px;
+  }
+  
+  .logo-footer a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    letter-spacing: 0 px;
+  
+  }
